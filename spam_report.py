@@ -1,7 +1,8 @@
 import requests
 import time
+from os import system
 
-
+system("title " + "@2L21L1 . IG-REPORT")
 
 
 solax = """
